@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*---------- Navbar --------- */
+.navbar {
+    height: 90px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    
+}
+
+.navbar-logo {
+    max-width: 100px;
+    align-self: center;
+}
+
+/*---------- Hero Section --------- */
+
+section {
+    padding: 20px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-image {
+    max-width: 1100px;
+    align-self: center;
+}
+
+.hero-headline {
+    margin-bottom: 16px;
+    font-size: 40px;
+}
+
+.hero-subtext {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+/*---------- Experiences Section --------- */
+
+.experiences {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-right: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.card-review {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-star {
+    width: 20px;
+}
+
+.gray {
+    color: #918E9B;
+}
