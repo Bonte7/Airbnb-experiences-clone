@@ -1,6 +1,8 @@
 import React from 'react';
 import heroImage from '../images/photo-group.png';
 
+//This is the middle portion of the page that holds the background collage image and some verbiage
+
 function Hero() {
     return (
         <section className="hero-section">

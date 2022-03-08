@@ -1,6 +1,7 @@
 import React from 'react';
 import star from '../images/Star.png';
 
+//the card component is determining how and what is being displayed in the experiences section
 function Card(props) {
     return (
 

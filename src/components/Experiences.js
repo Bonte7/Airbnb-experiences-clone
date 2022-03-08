@@ -1,37 +1,13 @@
 import React from 'react';
 import Card from './Card';
+import experiences from './experienceData';
+
+/*this is the experiences section that holds all the card components 
+in a row and displays the props of each card component*/
 
 function Experiences() {
 
-    const experiences = [
-        {
-            id: Math.random().toString(),
-            imageURL: require('../images/Katie.png'),
-            description: "Life lessons with Katie Zaferes",
-            price: "136",
-            reviewStars: "5.0",
-            reviewsTotal: "6",
-            region: "USA"
-        },
-        {
-            id: Math.random().toString(),
-            imageURL: require('../images/wedding-photography.png'),
-            description: "Learn wedding photography",
-            price: "125",
-            reviewStars: "5.0",
-            reviewsTotal: "30",
-            region: "USA"
-        },
-        {
-            id: Math.random().toString(),
-            imageURL: require('../images/mountain-bike.png'),
-            description: "Group Mountain Biking",
-            price: "50",
-            reviewStars: "4.8",
-            reviewsTotal: "2",
-            region: "USA"
-        }
-    ];
+
 
     return (
         <div className="experiences">
