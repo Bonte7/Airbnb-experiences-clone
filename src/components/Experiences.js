@@ -14,12 +14,7 @@ function Experiences() {
             {experiences.map(experience => 
             <Card 
                 key={experience.id}
-                img={experience.imageURL}
-                review={experience.reviewStars}
-                reviewTotal={experience.reviewsTotal}
-                region={experience.region}
-                desc={experience.description}
-                price={experience.price}
+                experience={experience}
             />)}
         </div>
     );

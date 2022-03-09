@@ -8,7 +8,8 @@ const experiences = [
         price: "136",
         reviewStars: "5.0",
         reviewsTotal: "6",
-        region: "USA"
+        region: "USA",
+        openSpots: 0
     },
     {
         id: Math.random().toString(),
@@ -17,7 +18,8 @@ const experiences = [
         price: "125",
         reviewStars: "5.0",
         reviewsTotal: "30",
-        region: "USA"
+        region: "Online",
+        openSpots: 5
     },
     {
         id: Math.random().toString(),
@@ -26,7 +28,8 @@ const experiences = [
         price: "50",
         reviewStars: "4.8",
         reviewsTotal: "2",
-        region: "USA"
+        region: "USA",
+        openSpots: 3
     }
 ];
 
